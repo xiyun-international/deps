@@ -1,7 +1,8 @@
 {
   "name": "@xiyun/deps",
   "version": "0.0.1",
-  "main": "./index.js",
+  "main": "./lib/index.js",
+  "type": "./lib/index.js",
   "scripts": {
     "build": "father-build"
   },
