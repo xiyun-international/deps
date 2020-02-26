@@ -1,0 +1,30 @@
+{
+  "name": "xiyun",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "scripts": {
+    "build": "father-build"
+  },
+  "dependencies": {
+    "@antv/g6": "^3.3.5",
+    "@types/lodash": "^4.14.149",
+    "@types/qs": "^6.9.1",
+    "@xiyun/ant-design-ui": "^1.4.5",
+    "@xiyun/utils": "^1.2.40",
+    "@xiyun/vue-route-webpack-plugin": "^2.1.0",
+    "ant-design-vue": "^1.4.4",
+    "axios": "^0.18.0",
+    "copy-to-clipboard": "^3.0.8",
+    "lodash": "^4.17.14",
+    "moment": "^2.24.0",
+    "photoviewer": "^3.4.0",
+    "qs": "^6.7.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.2.2",
+    "father-build": "^1.17.2"
+  }
+}
