@@ -1,11 +1,15 @@
 {
   "name": "@xiyun/deps",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "./lib/index.js",
-  "type": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "build": "father-build"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "dependencies": {
     "@antv/g6": "^3.3.5",
     "@types/lodash": "^4.14.149",
