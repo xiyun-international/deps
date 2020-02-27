@@ -9,6 +9,7 @@ import qs from "qs";
 import axios from "axios";
 import copyToClipboard from "copy-to-clipboard";
 import lodash from "lodash";
+import moment from "moment";
 
 Vue.use(VueRouter);
 Vue.use(Vuex);
@@ -22,3 +23,4 @@ export { qs };
 export { VueRouter };
 export { Vuex };
 export { G6 };
+export { moment };
