@@ -10,6 +10,7 @@ import axios from "axios";
 import copyToClipboard from "copy-to-clipboard";
 import lodash from "lodash";
 import moment from "moment";
+import PhotoViewer from "photoviewer";
 
 Vue.use(VueRouter);
 Vue.use(Vuex);
@@ -24,3 +25,4 @@ export { VueRouter };
 export { Vuex };
 export { G6 };
 export { moment };
+export { PhotoViewer };
