@@ -1,31 +1,22 @@
-import vue from "vue";
-import vueRouter from "vue-router";
-import vuex from "vuex";
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Vuex from "vuex";
 
-import g6 from "@antv/g6";
-
-import ui from "@xiyun/ant-design-ui";
 import utils from "@xiyun/utils";
 
 import qs from "qs";
 import axios from "axios";
-import copy from "copy-to-clipboard";
+import copyToClipboard from "copy-to-clipboard";
 import lodash from "lodash";
-import moment from "moment";
 
-import vueRouterWebpackPlugin from "@xiyun/vue-route-webpack-plugin";
+Vue.use(VueRouter);
+Vue.use(Vuex);
 
-vue.use(vueRouter);
-vue.use(vuex);
-vue.use(ui);
-
-export { vue };
-export { g6 };
-export { ui };
+export { Vue };
 export { utils };
 export { axios };
-export { copy };
+export { copyToClipboard };
 export { lodash };
-export { moment };
 export { qs };
-export { vueRouterWebpackPlugin };
+export { VueRouter };
+export { Vuex };

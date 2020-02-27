@@ -1,15 +1,26 @@
 {
   "name": "@xiyun/deps",
-  "version": "0.0.4",
-  "main": "./lib/index.js",
-  "typings": "./lib/index.d.ts",
+  "version": "0.0.7",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "father-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiyun-international/deps"
   },
   "files": [
     "lib",
     "src"
   ],
+  "authors": [
+    "wubaiqing <wubaiqing@vip.qq.com> (https://github.com/wubaiqing)"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@antv/g6": "^3.3.5",
     "@types/lodash": "^4.14.149",
