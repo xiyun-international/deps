@@ -12,17 +12,23 @@ import lodash from "lodash";
 import moment from "moment";
 import PhotoViewer from "photoviewer";
 
+import injectComponents from "./components";
+import { message as AntdMessage } from "ant-design-vue";
+
+injectComponents(Vue);
 Vue.use(VueRouter);
 Vue.use(Vuex);
 
 export { Vue };
+export { VueRouter };
+export { Vuex };
+
 export { utils };
 export { axios };
 export { copyToClipboard };
 export { lodash };
 export { qs };
-export { VueRouter };
-export { Vuex };
 export { G6 };
 export { moment };
 export { PhotoViewer };
+export { AntdMessage };
