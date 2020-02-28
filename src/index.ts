@@ -17,9 +17,12 @@ import Nzh from 'nzh/cn';
 import injectComponents from "./components";
 import { message as AntdMessage } from "ant-design-vue";
 
+import XyUI from '@xiyun/ant-design-ui';
+
 injectComponents(Vue);
 Vue.use(VueRouter);
 Vue.use(Vuex);
+Vue.use(XyUI);
 
 // Vue
 export { Vue };

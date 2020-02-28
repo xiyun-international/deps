@@ -1,6 +1,6 @@
 {
   "name": "@xiyun/deps",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@antv/g6": "^3.3.5",
-    "@xiyun/ant-design-ui": "^1.4.5",
+    "@xiyun/ant-design-ui": "^1.4.9",
     "@xiyun/utils": "^1.2.40",
     "@xiyun/vue-route-webpack-plugin": "^2.1.0",
     "ant-design-vue": "^1.4.11",
