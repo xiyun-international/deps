@@ -1,25 +1,29 @@
+// Vue
 import Vue from "vue";
-import VueRouter from "vue-router";
 import Vuex from "vuex";
+import VueRouter from "vue-router";
 
+// 禧云
 import utils from "@xiyun/utils";
-import G6 from "@antv/g6";
+import XyUI from "@xiyun/ant-design-ui";
+import injectComponents from "./components";
 
+// 类库
 import qs from "qs";
+import Nzh from "nzh/cn";
+import G6 from "@antv/g6";
 import axios from "axios";
-import copyToClipboard from "copy-to-clipboard";
 import lodash from "lodash";
 import moment from "moment";
-import PhotoViewer from "photoviewer";
 import BigNumber from "bignumber.js";
-import Nzh from 'nzh/cn';
+import PhotoViewer from "photoviewer";
+import { message } from "ant-design-vue";
+import copyToClipboard from "copy-to-clipboard";
 
-import injectComponents from "./components";
-import { message as AntdMessage } from "ant-design-vue";
-
-import XyUI from '@xiyun/ant-design-ui';
-
+// 注入禧云所用的组件
 injectComponents(Vue);
+
+// Vue 相关
 Vue.use(VueRouter);
 Vue.use(Vuex);
 Vue.use(XyUI);
@@ -31,7 +35,7 @@ export { Vuex };
 
 // 禧云
 export { utils };
-export { AntdMessage };
+export { message };
 
 // 类库
 export { qs };
@@ -43,5 +47,3 @@ export { copyToClipboard };
 export { lodash };
 export { BigNumber };
 export { Nzh };
-
-
