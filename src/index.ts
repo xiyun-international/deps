@@ -12,13 +12,10 @@ import lodash from "lodash";
 import moment from "moment";
 import PhotoViewer from "photoviewer";
 import BigNumber from "bignumber.js";
-import nzh from 'nzh';
-
+import Nzh from 'nzh/cn';
 
 import injectComponents from "./components";
 import { message as AntdMessage } from "ant-design-vue";
-
-const Nzh = nzh.ch;
 
 injectComponents(Vue);
 Vue.use(VueRouter);
