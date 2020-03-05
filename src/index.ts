@@ -4,7 +4,7 @@ import Vuex from "vuex";
 import VueRouter from "vue-router";
 
 // 禧云
-import utils from "@xiyun/utils";
+import * as utils from "@xiyun/utils";
 import XyUI from "@xiyun/ant-design-ui";
 import injectComponents from "./components";
 
