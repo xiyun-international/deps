@@ -37,10 +37,10 @@
     "qs": "^6.7.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
-  },
-  "devDependencies": {
+    "vuex": "^3.0.1",
     "@vue/cli-service": "^4.2.2",
     "father-build": "^1.17.2"
+  },
+  "devDependencies": {
   }
 }
