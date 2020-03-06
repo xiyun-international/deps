@@ -1,6 +1,6 @@
 {
   "name": "@xiyun/deps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -41,6 +41,5 @@
     "@vue/cli-service": "^4.2.2",
     "father-build": "^1.17.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
