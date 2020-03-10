@@ -30,14 +30,15 @@
     "axios": "^0.18.0",
     "bignumber.js": "^9.0.0",
     "copy-to-clipboard": "^3.0.8",
+    "core-js": "^3.6.4",
     "lodash": "^4.17.14",
     "moment": "^2.24.0",
     "nzh": "^1.0.4",
     "photoviewer": "^3.4.0",
     "qs": "^6.7.0",
-    "vue": "^2.6.6",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "@vue/cli-service": "^4.2.2",
