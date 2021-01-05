@@ -27,7 +27,7 @@
     "@xiyun/utils": "^1.2.40",
     "@xiyun/vue-route-webpack-plugin": "^2.1.0",
     "ant-design-vue": "^1.4.11",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bignumber.js": "^9.0.0",
     "copy-to-clipboard": "^3.0.8",
     "core-js": "^3.6.4",
