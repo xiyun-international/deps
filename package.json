@@ -31,7 +31,7 @@
     "bignumber.js": "^9.0.0",
     "copy-to-clipboard": "^3.0.8",
     "core-js": "^3.6.4",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "nzh": "^1.0.4",
     "photoviewer": "^3.4.0",
