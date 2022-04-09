@@ -32,7 +32,7 @@
     "copy-to-clipboard": "^3.0.8",
     "core-js": "^3.6.4",
     "lodash": "^4.17.14",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "nzh": "^1.0.4",
     "photoviewer": "^3.4.0",
     "qs": "^6.7.0",
